@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ApolloMutation | Aatrox</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.png">
+    <meta name="description" content="🚀 Production Ready, Carefully Crafted, Extensive Vue 3 Tailwind Admin Template 🚀">
+    
+    <link rel="preload" href="/assets/css/0.styles.093e62d5.css" as="style"><link rel="preload" href="/assets/js/app.d6060d8c.js" as="script"><link rel="preload" href="/assets/js/2.d347fc36.js" as="script"><link rel="preload" href="/assets/js/30.2476a4cb.js" as="script"><link rel="preload" href="/assets/js/4.3bfcd1eb.js" as="script"><link rel="prefetch" href="/assets/js/10.07f3dd6a.js"><link rel="prefetch" href="/assets/js/11.842fc523.js"><link rel="prefetch" href="/assets/js/12.e785caa3.js"><link rel="prefetch" href="/assets/js/13.fdb12f07.js"><link rel="prefetch" href="/assets/js/14.9144e1c8.js"><link rel="prefetch" href="/assets/js/15.bace1ae4.js"><link rel="prefetch" href="/assets/js/16.891324fc.js"><link rel="prefetch" href="/assets/js/17.c9794947.js"><link rel="prefetch" href="/assets/js/18.24a08ac1.js"><link rel="prefetch" href="/assets/js/19.27df5ea4.js"><link rel="prefetch" href="/assets/js/20.34c2dde6.js"><link rel="prefetch" href="/assets/js/21.ef09050c.js"><link rel="prefetch" href="/assets/js/22.f992592b.js"><link rel="prefetch" href="/assets/js/23.8f880339.js"><link rel="prefetch" href="/assets/js/24.87282a3d.js"><link rel="prefetch" href="/assets/js/25.6c4d6bd1.js"><link rel="prefetch" href="/assets/js/26.59e51c9f.js"><link rel="prefetch" href="/assets/js/27.eebe1132.js"><link rel="prefetch" href="/assets/js/28.00be216d.js"><link rel="prefetch" href="/assets/js/29.4d6b9e7e.js"><link rel="prefetch" href="/assets/js/3.df915ef7.js"><link rel="prefetch" href="/assets/js/31.2722c49a.js"><link rel="prefetch" href="/assets/js/32.7112e7af.js"><link rel="prefetch" href="/assets/js/33.1776a5c1.js"><link rel="prefetch" href="/assets/js/34.30049684.js"><link rel="prefetch" href="/assets/js/35.c161bbdf.js"><link rel="prefetch" href="/assets/js/36.c0f3b0c2.js"><link rel="prefetch" href="/assets/js/37.f701f25d.js"><link rel="prefetch" href="/assets/js/38.9bfe8e62.js"><link rel="prefetch" href="/assets/js/39.0a067b54.js"><link rel="prefetch" href="/assets/js/40.aaccb5b2.js"><link rel="prefetch" href="/assets/js/41.8406db25.js"><link rel="prefetch" href="/assets/js/42.d640c84a.js"><link rel="prefetch" href="/assets/js/43.167bce97.js"><link rel="prefetch" href="/assets/js/44.dbad1001.js"><link rel="prefetch" href="/assets/js/45.7c12bc58.js"><link rel="prefetch" href="/assets/js/46.72e2e644.js"><link rel="prefetch" href="/assets/js/47.95923bad.js"><link rel="prefetch" href="/assets/js/48.e3130295.js"><link rel="prefetch" href="/assets/js/49.41a3e160.js"><link rel="prefetch" href="/assets/js/5.c754c5c1.js"><link rel="prefetch" href="/assets/js/50.9956d438.js"><link rel="prefetch" href="/assets/js/51.acf07990.js"><link rel="prefetch" href="/assets/js/52.9e942a6f.js"><link rel="prefetch" href="/assets/js/53.45c49bfc.js"><link rel="prefetch" href="/assets/js/54.0a600b12.js"><link rel="prefetch" href="/assets/js/55.eec77fcb.js"><link rel="prefetch" href="/assets/js/56.572c97d8.js"><link rel="prefetch" href="/assets/js/57.abef7689.js"><link rel="prefetch" href="/assets/js/58.a721ebe3.js"><link rel="prefetch" href="/assets/js/59.5e36d5dc.js"><link rel="prefetch" href="/assets/js/6.7023f416.js"><link rel="prefetch" href="/assets/js/60.3a779059.js"><link rel="prefetch" href="/assets/js/7.3722245b.js"><link rel="prefetch" href="/assets/js/8.6417a644.js"><link rel="prefetch" href="/assets/js/9.e0f2787c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.093e62d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Aatrox</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guide" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guide" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Getting started
+</a></li></ul></div></div><div class="nav-item"><a href="https://aatrox-vue.netlify.app/landingpage" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/Akryum/vue-apollo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guide" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guide" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Getting started
+</a></li></ul></div></div><div class="nav-item"><a href="https://aatrox-vue.netlify.app/landingpage" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/Akryum/vue-apollo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Components Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide-components/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/guide-components/setup.html" class="sidebar-link">Setup</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Usage</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide-components/query.html" class="sidebar-link">ApolloQuery</a></li><li><a href="/guide-components/mutation.html" aria-current="page" class="active sidebar-link">ApolloMutation</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-components/mutation.html#updating-the-cache" class="sidebar-link">Updating the cache</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-components/mutation.html#adding-an-item" class="sidebar-link">Adding an item</a></li><li class="sidebar-sub-header"><a href="/guide-components/mutation.html#removing-an-item" class="sidebar-link">Removing an item</a></li></ul></li></ul></li><li><a href="/guide-components/subscribe-to-more.html" class="sidebar-link">ApolloSubscribeToMore</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="apollomutation"><a href="#apollomutation" class="header-anchor">#</a> ApolloMutation</h1> <p>You can use the <code>ApolloMutation</code> (or <code>apollo-mutation</code>) component to call Apollo mutations directly in your template.</p> <p>Here is an example:</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ApolloMutation</span>
+  <span class="token attr-name">:mutation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>gql =&gt; gql`
+    mutation DoStuff ($name: String!) {
+      someWork (name: $name) {
+        success
+        timeSpent
+      }
+    }
+  `<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">:variables</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{
+    name
+  }<span class="token punctuation">&quot;</span></span>
+  <span class="token attr-name">@done</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>onDone<span class="token punctuation">&quot;</span></span>
+<span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">v-slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{ mutate, loading, error }<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">:disabled</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>mutate()<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Click me<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>An error occurred: {{ error }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ApolloMutation</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>See <a href="/guide-components/query.html">ApolloQuery</a> to learn how to write GraphQL queries in the template.</p> <p>See <a href="/api/apollo-mutation.html">API Reference</a> for all the available options.</p> <h2 id="updating-the-cache"><a href="#updating-the-cache" class="header-anchor">#</a> Updating the cache</h2> <p>If the mutation is only updating objects you already have in the cache (for example, editing existing fields), you don't need to do anything as Apollo Client will update the cache automatically. This works only if the object in the mutation result contains the <code>__typename</code> and <code>id</code> fields (or the custom fields you use to <a href="https://www.apollographql.com/docs/react/advanced/caching#normalization" target="_blank" rel="noopener noreferrer">normalize the cache<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>).</p> <p>Otherwise, you need to tell Apollo Client how to update the cache with the mutation result. For example, if the mutation adds a new item, you have to update the relevent query result to effectively push this new items to the query.</p> <h3 id="adding-an-item"><a href="#adding-an-item" class="header-anchor">#</a> Adding an item</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ApolloMutation</span>
+    <span class="token attr-name">:mutation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>gql =&gt; gql`
+      mutation ($input: SendMessageToThreadInput!) {
+        sendMessageToThread (input: $input) {
+          message {
+            ...message
+          }
+        }
+      }
+      ${$options.fragments.message}
+    `<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:variables</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{
+      threadId,
+      text
+    }<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:update</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>updateCache<span class="token punctuation">&quot;</span></span>
+  <span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Form here --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ApolloMutation</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'gql-tag'</span>
+
+<span class="token keyword">const</span> fragments <span class="token operator">=</span> <span class="token punctuation">{</span>
+  message<span class="token operator">:</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+    fragment message on Message {
+      id
+      text
+      user {
+        id
+        name
+      }
+    }
+  </span><span class="token template-punctuation string">`</span></span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  fragments<span class="token punctuation">,</span>
+
+  props<span class="token operator">:</span> <span class="token punctuation">{</span>
+    threadId<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      required<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">updateCache</span> <span class="token punctuation">(</span><span class="token parameter">store<span class="token punctuation">,</span> <span class="token punctuation">{</span> data<span class="token operator">:</span> <span class="token punctuation">{</span> sendMessageToThread <span class="token punctuation">}</span> <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> query <span class="token operator">=</span> <span class="token punctuation">{</span>
+        query<span class="token operator">:</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+        query ($threadId: ID!) {
+          thread (id: $threadId) {
+            id
+            messages {
+              ...message
+            }
+          }
+        }
+        </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>fragments<span class="token punctuation">.</span>message<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
+        </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+        variables<span class="token operator">:</span> <span class="token punctuation">{</span>
+          threadId<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>threadId<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+      <span class="token comment">// Read the query from cache</span>
+      <span class="token keyword">const</span> data <span class="token operator">=</span> store<span class="token punctuation">.</span><span class="token function">readQuery</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span>
+      <span class="token comment">// Mutate cache result</span>
+      data<span class="token punctuation">.</span>thread<span class="token punctuation">.</span>messages<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>sendMessageToThread<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+      <span class="token comment">// Write back to the cache</span>
+      store<span class="token punctuation">.</span><span class="token function">writeQuery</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token operator">...</span>query<span class="token punctuation">,</span>
+        data<span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="removing-an-item"><a href="#removing-an-item" class="header-anchor">#</a> Removing an item</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ApolloMutation</span>
+    <span class="token attr-name">:mutation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>gql =&gt; gql`
+      mutation ($input: DeleteMessageFromThreadInput!) {
+        deleteMessageFromThread (input: $input) {
+          success
+        }
+      }
+    `<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:variables</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>{
+      threadId,
+      messageId
+    }<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:update</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>updateCache<span class="token punctuation">&quot;</span></span>
+  <span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Form here --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ApolloMutation</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'gql-tag'</span>
+
+<span class="token keyword">const</span> fragments <span class="token operator">=</span> <span class="token punctuation">{</span>
+  message<span class="token operator">:</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+    fragment message on Message {
+      id
+      text
+      user {
+        id
+        name
+      }
+    }
+  </span><span class="token template-punctuation string">`</span></span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  fragments<span class="token punctuation">,</span>
+
+  props<span class="token operator">:</span> <span class="token punctuation">{</span>
+    threadId<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      required<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    messageId<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+      required<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">updateCache</span> <span class="token punctuation">(</span><span class="token parameter">store<span class="token punctuation">,</span> <span class="token punctuation">{</span> data<span class="token operator">:</span> <span class="token punctuation">{</span> deleteMessageFromThread <span class="token punctuation">}</span> <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> query <span class="token operator">=</span> <span class="token punctuation">{</span>
+        query<span class="token operator">:</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+        query ($threadId: ID!) {
+          thread (id: $threadId) {
+            id
+            messages {
+              ...message
+            }
+          }
+        }
+        </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>fragments<span class="token punctuation">.</span>message<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
+        </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+        variables<span class="token operator">:</span> <span class="token punctuation">{</span>
+          threadId<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>threadId<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+      <span class="token comment">// Read the query from cache</span>
+      <span class="token keyword">const</span> data <span class="token operator">=</span> store<span class="token punctuation">.</span><span class="token function">readQuery</span><span class="token punctuation">(</span>query<span class="token punctuation">)</span>
+      <span class="token comment">// Look for the deleted item</span>
+      <span class="token keyword">const</span> index <span class="token operator">=</span> data<span class="token punctuation">.</span>thread<span class="token punctuation">.</span>messages<span class="token punctuation">.</span><span class="token function">findIndex</span><span class="token punctuation">(</span><span class="token parameter">m</span> <span class="token operator">=&gt;</span> m<span class="token punctuation">.</span>id <span class="token operator">===</span> <span class="token keyword">this</span><span class="token punctuation">.</span>messageId<span class="token punctuation">)</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// Mutate cache result</span>
+        data<span class="token punctuation">.</span>thread<span class="token punctuation">.</span>messages<span class="token punctuation">.</span><span class="token function">splice</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+        <span class="token comment">// Write back to the cache</span>
+        store<span class="token punctuation">.</span><span class="token function">writeQuery</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+          <span class="token operator">...</span>query<span class="token punctuation">,</span>
+          data<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/Akryum/vue-apollo/edit/v4/packages/docs/src/guide-components/mutation.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">10/10/2021, 5:47:58 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide-components/query.html" class="prev">
+        ApolloQuery
+      </a></span> <span class="next"><a href="/guide-components/subscribe-to-more.html">
+        ApolloSubscribeToMore
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.d6060d8c.js" defer></script><script src="/assets/js/2.d347fc36.js" defer></script><script src="/assets/js/30.2476a4cb.js" defer></script><script src="/assets/js/4.3bfcd1eb.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Queries | Aatrox</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.png">
+    <meta name="description" content="🚀 Production Ready, Carefully Crafted, Extensive Vue 3 Tailwind Admin Template 🚀">
+    
+    <link rel="preload" href="/assets/css/0.styles.093e62d5.css" as="style"><link rel="preload" href="/assets/js/app.d6060d8c.js" as="script"><link rel="preload" href="/assets/js/2.d347fc36.js" as="script"><link rel="preload" href="/assets/js/40.aaccb5b2.js" as="script"><link rel="preload" href="/assets/js/4.3bfcd1eb.js" as="script"><link rel="prefetch" href="/assets/js/10.07f3dd6a.js"><link rel="prefetch" href="/assets/js/11.842fc523.js"><link rel="prefetch" href="/assets/js/12.e785caa3.js"><link rel="prefetch" href="/assets/js/13.fdb12f07.js"><link rel="prefetch" href="/assets/js/14.9144e1c8.js"><link rel="prefetch" href="/assets/js/15.bace1ae4.js"><link rel="prefetch" href="/assets/js/16.891324fc.js"><link rel="prefetch" href="/assets/js/17.c9794947.js"><link rel="prefetch" href="/assets/js/18.24a08ac1.js"><link rel="prefetch" href="/assets/js/19.27df5ea4.js"><link rel="prefetch" href="/assets/js/20.34c2dde6.js"><link rel="prefetch" href="/assets/js/21.ef09050c.js"><link rel="prefetch" href="/assets/js/22.f992592b.js"><link rel="prefetch" href="/assets/js/23.8f880339.js"><link rel="prefetch" href="/assets/js/24.87282a3d.js"><link rel="prefetch" href="/assets/js/25.6c4d6bd1.js"><link rel="prefetch" href="/assets/js/26.59e51c9f.js"><link rel="prefetch" href="/assets/js/27.eebe1132.js"><link rel="prefetch" href="/assets/js/28.00be216d.js"><link rel="prefetch" href="/assets/js/29.4d6b9e7e.js"><link rel="prefetch" href="/assets/js/3.df915ef7.js"><link rel="prefetch" href="/assets/js/30.2476a4cb.js"><link rel="prefetch" href="/assets/js/31.2722c49a.js"><link rel="prefetch" href="/assets/js/32.7112e7af.js"><link rel="prefetch" href="/assets/js/33.1776a5c1.js"><link rel="prefetch" href="/assets/js/34.30049684.js"><link rel="prefetch" href="/assets/js/35.c161bbdf.js"><link rel="prefetch" href="/assets/js/36.c0f3b0c2.js"><link rel="prefetch" href="/assets/js/37.f701f25d.js"><link rel="prefetch" href="/assets/js/38.9bfe8e62.js"><link rel="prefetch" href="/assets/js/39.0a067b54.js"><link rel="prefetch" href="/assets/js/41.8406db25.js"><link rel="prefetch" href="/assets/js/42.d640c84a.js"><link rel="prefetch" href="/assets/js/43.167bce97.js"><link rel="prefetch" href="/assets/js/44.dbad1001.js"><link rel="prefetch" href="/assets/js/45.7c12bc58.js"><link rel="prefetch" href="/assets/js/46.72e2e644.js"><link rel="prefetch" href="/assets/js/47.95923bad.js"><link rel="prefetch" href="/assets/js/48.e3130295.js"><link rel="prefetch" href="/assets/js/49.41a3e160.js"><link rel="prefetch" href="/assets/js/5.c754c5c1.js"><link rel="prefetch" href="/assets/js/50.9956d438.js"><link rel="prefetch" href="/assets/js/51.acf07990.js"><link rel="prefetch" href="/assets/js/52.9e942a6f.js"><link rel="prefetch" href="/assets/js/53.45c49bfc.js"><link rel="prefetch" href="/assets/js/54.0a600b12.js"><link rel="prefetch" href="/assets/js/55.eec77fcb.js"><link rel="prefetch" href="/assets/js/56.572c97d8.js"><link rel="prefetch" href="/assets/js/57.abef7689.js"><link rel="prefetch" href="/assets/js/58.a721ebe3.js"><link rel="prefetch" href="/assets/js/59.5e36d5dc.js"><link rel="prefetch" href="/assets/js/6.7023f416.js"><link rel="prefetch" href="/assets/js/60.3a779059.js"><link rel="prefetch" href="/assets/js/7.3722245b.js"><link rel="prefetch" href="/assets/js/8.6417a644.js"><link rel="prefetch" href="/assets/js/9.e0f2787c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.093e62d5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Aatrox</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guide" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guide" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Getting started
+</a></li></ul></div></div><div class="nav-item"><a href="https://aatrox-vue.netlify.app/landingpage" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/Akryum/vue-apollo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guide" class="dropdown-title"><span class="title">Guide</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guide" class="mobile-dropdown-title"><span class="title">Guide</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Getting started
+</a></li></ul></div></div><div class="nav-item"><a href="https://aatrox-vue.netlify.app/landingpage" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Demo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/Akryum/vue-apollo" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Composition API Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide-composable/" aria-current="page" class="sidebar-link">Introduction</a></li><li><a href="/guide-composable/setup.html" class="sidebar-link">Setup</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Fetching data</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide-composable/query.html" aria-current="page" class="active sidebar-link">Queries</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#executing-a-query" class="sidebar-link">Executing a query</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#graphql-document" class="sidebar-link">GraphQL document</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#usequery" class="sidebar-link">useQuery</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#query-status" class="sidebar-link">Query status</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#loading-state" class="sidebar-link">Loading state</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#error" class="sidebar-link">Error</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#useresult" class="sidebar-link">useResult</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#result-picking" class="sidebar-link">Result picking</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#automatic-picking" class="sidebar-link">Automatic picking</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#default-value" class="sidebar-link">Default value</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#variables" class="sidebar-link">Variables</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#variables-ref" class="sidebar-link">Variables Ref</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#reactive-object" class="sidebar-link">Reactive object</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#variables-function" class="sidebar-link">Variables function</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#options" class="sidebar-link">Options</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#disable-a-query" class="sidebar-link">Disable a query</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#fetch-policy" class="sidebar-link">Fetch Policy</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#updating-cached-results" class="sidebar-link">Updating cached results</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#polling" class="sidebar-link">Polling</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#refetching" class="sidebar-link">Refetching</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#event-hooks" class="sidebar-link">Event hooks</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide-composable/query.html#onresult" class="sidebar-link">onResult</a></li><li class="sidebar-sub-header"><a href="/guide-composable/query.html#onerror" class="sidebar-link">onError</a></li></ul></li></ul></li><li><a href="/guide-composable/mutation.html" class="sidebar-link">Mutations</a></li><li><a href="/guide-composable/subscription.html" class="sidebar-link">Subscriptions</a></li><li><a href="/guide-composable/pagination.html" class="sidebar-link">Pagination</a></li><li><a href="/guide-composable/fragments.html" class="sidebar-link">Using fragments</a></li><li><a href="/guide-composable/error-handling.html" class="sidebar-link">Error handling</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="queries"><a href="#queries" class="header-anchor">#</a> Queries</h1> <p>Fetching data involves executing <strong>query</strong> operations using standard GraphQL documents. You can learn more about queries and GraphQL documents <a href="https://graphql.org/learn/queries/" target="_blank" rel="noopener noreferrer">here<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> and <a href="https://www.apollographql.com/docs/react/development-testing/developer-tooling/#features" target="_blank" rel="noopener noreferrer">practice running queries in the playground<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <h2 id="executing-a-query"><a href="#executing-a-query" class="header-anchor">#</a> Executing a query</h2> <h3 id="graphql-document"><a href="#graphql-document" class="header-anchor">#</a> GraphQL document</h3> <p>Let's take this example GraphQL document throughout this section:</p> <div class="language-graphql extra-class"><pre class="language-graphql"><code><span class="token keyword">query</span> <span class="token definition-query function">getUsers</span> <span class="token punctuation">{</span>
+  <span class="token object">users</span> <span class="token punctuation">{</span>
+    <span class="token property">id</span>
+    <span class="token property">firstname</span>
+    <span class="token property">lastname</span>
+    <span class="token property">email</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>It is recommended to give a name to your GraphQL operations (here <code>getUsers</code>), so it is easier to find them in the Apollo Client devtools.</p></div> <p>This query would return a <code>data</code> object with an array of <code>users</code> with their <code>id</code>, <code>firstname</code>, <code>lastname</code> and <code>email</code>. It could look like this:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;users&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;abc&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;firstname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;James&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;lastname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Holden&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;james.holden@roci.com&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;def&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;firstname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Naomi&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;lastname&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Nagata&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;email&quot;</span><span class="token operator">:</span> <span class="token string">&quot;naomi.nagata@roci.com&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>You may ask: why is there a nested <code>users</code> property on <code>data</code>? Why isn't the array directly on <code>data</code>?</p> <p>This is because you can select multiple root fields in a GraphQL operation:</p> <div class="language-graphql extra-class"><pre class="language-graphql"><code><span class="token keyword">query</span> <span class="token definition-query function">getCatsAndDogs</span> <span class="token punctuation">{</span>
+  <span class="token object">cats</span> <span class="token punctuation">{</span>
+    <span class="token property">id</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token object">dogs</span> <span class="token punctuation">{</span>
+    <span class="token property">id</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>In this case, the result could look like this:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;cats&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;abc&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;def&quot;</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;dogs&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span> <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ghi&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;jkl&quot;</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>There can also be other optional properties on the result alongside <code>data</code>:</p> <ul><li><code>errors</code> : an array of errors returned by the server</li> <li><code>extensions</code> : additional informations such as execution timings</li></ul> <h3 id="usequery"><a href="#usequery" class="header-anchor">#</a> useQuery</h3> <p>The main composition function used to execute queries is <code>useQuery</code>. In your component, start by importing it:</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Your data &amp; logic here...</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>You can use <code>useQuery</code> in your <code>setup</code> option and pass it a GraphQL document as the first parameter. Then retrieve the query <code>result</code>:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><div class="highlighted"> </div><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Note that <code>result</code> here is a <code>Ref</code> holding the data from the result returned by Apollo.</p> <p>If you want to directly access the data object, use <code>result.value</code>:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> watch <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token function">watch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">.</span>value<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>In this example, you could also watch the <code>Ref</code> directly:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> watch <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token function">watch</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token parameter">value</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Let's expose our result in the template:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      result<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of result.users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Beware that <code>result</code> may not contain your data at all time! It will initially be <code>undefined</code> until the query successfully completes. So it's a good idea to add a conditional before rendering the data:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>result &amp;&amp; result.users<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of result.users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="query-status"><a href="#query-status" class="header-anchor">#</a> Query status</h2> <h3 id="loading-state"><a href="#loading-state" class="header-anchor">#</a> Loading state</h3> <p>Alongside <code>result</code>, <code>useQuery</code> returns <code>loading</code>, a boolean <code>Ref</code> tracking the loading state of the query:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><div class="highlighted"> </div><br><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      result<span class="token punctuation">,</span>
+      loading<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Loading...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>result &amp;&amp; result.users<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of result.users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="error"><a href="#error" class="header-anchor">#</a> Error</h3> <p>There is also an <code>error</code> <code>Ref</code> that holds any error that may occur during the request:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading<span class="token punctuation">,</span> error <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      result<span class="token punctuation">,</span>
+      loading<span class="token punctuation">,</span>
+      error<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Loading...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Error: {{ error.message }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>result &amp;&amp; result.users<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of result.users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="useresult"><a href="#useresult" class="header-anchor">#</a> useResult</h2> <p>The sister composition function <code>useResult</code> is available alongside <code>useQuery</code> to facilitate usage of the query <code>result</code>.</p> <h3 id="result-picking"><a href="#result-picking" class="header-anchor">#</a> Result picking</h3> <p>The first useful feature of <code>useResult</code> is picking one object from the result data. To do so, pass the <code>result</code> data as the first parameter, and a picking function as the third parameter:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery<span class="token punctuation">,</span> useResult <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading<span class="token punctuation">,</span> error <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data<span class="token punctuation">.</span>users<span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      users<span class="token punctuation">,</span>
+      loading<span class="token punctuation">,</span>
+      error<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Loading...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Error: {{ error.message }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>users<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>This is very useful if the data relevant to your component is nested in the query:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getMessages {
+    currentUser {
+      messages {
+        id
+        text
+      }
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> messages <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data<span class="token punctuation">.</span>currentUser<span class="token punctuation">.</span>messages<span class="token punctuation">)</span>
+</code></pre></div><p>Another perk of <code>useResult</code> is that the picking function will silence errors inside the picking function. For example, if <code>result.value</code> is <code>undefined</code>, you don't have to add additional checks:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// You don't need to do this!</span>
+<span class="token keyword">const</span> messages <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data <span class="token operator">&amp;&amp;</span> data<span class="token punctuation">.</span>currentUser <span class="token operator">&amp;&amp;</span> data<span class="token punctuation">.</span>currentUser<span class="token punctuation">.</span>messages<span class="token punctuation">)</span>
+
+<span class="token comment">// Instead do this:</span>
+<span class="token keyword">const</span> messages <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data<span class="token punctuation">.</span>currentUser<span class="token punctuation">.</span>messages<span class="token punctuation">)</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Don't forget that <code>messages.value</code> can still be <code>null</code> until the query successfully completes!</p></div> <p>Another use case where <code>useResult</code> proves to be very useful is when you have multiple objects on the result data:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUsersAndPosts {
+    users {
+      id
+      email
+    }
+
+    posts {
+      id
+      title
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data<span class="token punctuation">.</span>users<span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> data<span class="token punctuation">.</span>posts<span class="token punctuation">)</span>
+</code></pre></div><p>Look how we cleanly separated the result data into two different <code>Ref</code>!</p> <h3 id="automatic-picking"><a href="#automatic-picking" class="header-anchor">#</a> Automatic picking</h3> <p>If there is only one object in the data, <code>useResult</code> will automatically try to pick the object:</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br></div><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUsers {
+    users {
+      id
+      firstname
+      lastname
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+</code></pre></div><p>Here <code>users.value</code> will be the <code>users</code> array retrieved from our server.</p> <h3 id="default-value"><a href="#default-value" class="header-anchor">#</a> Default value</h3> <p>Let's say we want to sort our users on their last names:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> computed <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query users {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">const</span> sortedUsers <span class="token operator">=</span> <span class="token function">computed</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> result<span class="token punctuation">.</span>value<span class="token punctuation">.</span>users<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>
+      <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> a<span class="token punctuation">.</span>lastname<span class="token punctuation">.</span><span class="token function">localeCompare</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>lastname<span class="token punctuation">)</span>
+    <span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      sortedUsers<span class="token punctuation">,</span>
+      loading<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Loading...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>sortedUsers<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of sortedUsers<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Here we will run into an error because <code>result.value</code> can be <code>undefined</code> (and potentially <code>result.value.users</code> can also be <code>undefined</code>). So the <code>sort</code> method will throw an error when called in our <code>computed</code> property.</p> <p>We could add checks, but it can rapidly become tedious:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> sortedUsers <span class="token operator">=</span> <span class="token function">computed</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> result<span class="token punctuation">.</span>value <span class="token operator">&amp;&amp;</span> result<span class="token punctuation">.</span>value<span class="token punctuation">.</span>users <span class="token operator">?</span> result<span class="token punctuation">.</span>value<span class="token punctuation">.</span>users<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>
+  <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> a<span class="token punctuation">.</span>lastname<span class="token punctuation">.</span><span class="token function">localeCompare</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>lastname<span class="token punctuation">)</span>
+<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><p>We can further simplify this with <code>useResult</code>:</p> <div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><div class="highlighted"> </div><br><div class="highlighted"> </div><br></div><pre class="language-js"><code><span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span> <span class="token comment">// Automatically picked</span>
+
+<span class="token keyword">const</span> sortedUsers <span class="token operator">=</span> <span class="token function">computed</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> users<span class="token punctuation">.</span>value <span class="token operator">?</span> users<span class="token punctuation">.</span>value<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>
+  <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> a<span class="token punctuation">.</span>lastname<span class="token punctuation">.</span><span class="token function">localeCompare</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>lastname<span class="token punctuation">)</span>
+<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><p>But we can eliminate the conditional entirely if we pass a default value as the 2nd parameter of <code>useResult</code>:</p> <div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><div class="highlighted"> </div><br><div class="highlighted"> </div><br></div><pre class="language-js"><code><span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// Defaults to an empty array</span>
+
+<span class="token keyword">const</span> sortedUsers <span class="token operator">=</span> <span class="token function">computed</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> users<span class="token punctuation">.</span>value<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>
+  <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> a<span class="token punctuation">.</span>lastname<span class="token punctuation">.</span><span class="token function">localeCompare</span><span class="token punctuation">(</span>b<span class="token punctuation">.</span>lastname<span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>This is even more useful if we want to use the <code>users</code> array <code>Ref</code> in multiple places in our <code>setup</code> function!</p> <h2 id="variables"><a href="#variables" class="header-anchor">#</a> Variables</h2> <p>You can pass a <code>variables</code> object to the 2nd parameter of <code>useQuery</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUserById ($id: ID!) {
+    user (id: $id) {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token string">'abc-abc-abc'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="variables-ref"><a href="#variables-ref" class="header-anchor">#</a> Variables Ref</h3> <p>You can change them later by retrieving their <code>variables</code> <code>Ref</code>:</p> <div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br></div><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> variables <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUserById ($id: ID!) {
+    user (id: $id) {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token string">'abc-abc-abc'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">selectUser</span> <span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  variables<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>This will re-fetch the query each time a property from the <code>variables</code> object changes.</p></div> <p>Alternatively, you can pass a <code>Ref</code> directly:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> ref <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span>
+</code></pre></div><div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">const</span> variables <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token string">'abc-abc-abc'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUserById ($id: ID!) {
+    user (id: $id) {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> variables<span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">selectUser</span> <span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  variables<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="reactive-object"><a href="#reactive-object" class="header-anchor">#</a> Reactive object</h3> <p>You can also pass a reactive object:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> reactive <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue'</span>
+</code></pre></div><div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br></div><pre class="language-js"><code><span class="token keyword">const</span> variables <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  id<span class="token operator">:</span> <span class="token string">'abc-abc-abc'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUserById ($id: ID!) {
+    user (id: $id) {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> variables<span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">selectUser</span> <span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  variables<span class="token punctuation">.</span>id <span class="token operator">=</span> id
+<span class="token punctuation">}</span>
+</code></pre></div><p>This also means you can pass <code>props</code> from <code>setup</code> directly, since <code>props</code> is already a reactive object:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  props<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUserById ($id: ID!) {
+        user (id: $id) {
+          id
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> props<span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      result<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>But beware if you add new props that aren't used in the GraphQL document, you will run into GraphQL validation errors!</p> <h3 id="variables-function"><a href="#variables-function" class="header-anchor">#</a> Variables function</h3> <p>Finally, you can pass variables as a function returning an object:</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  props<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUserById ($id: ID!) {
+        user (id: $id) {
+          id
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+      id<span class="token operator">:</span> props<span class="token punctuation">.</span>id<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      result<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>This variables function will be made reactive automatically, so whenever <code>props.id</code> changes, the <code>variables</code> object of the query will be updated.</p> <p>This syntax is also useful if you want to use some <code>Ref</code>s in the <code>variables</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> id <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token string">'abc-abc-abc'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUserById ($id: ID!) {
+    user (id: $id) {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  id<span class="token operator">:</span> id<span class="token punctuation">.</span>value
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">selectUser</span> <span class="token punctuation">(</span><span class="token parameter">id</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  id<span class="token punctuation">.</span>value <span class="token operator">=</span> id
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="options"><a href="#options" class="header-anchor">#</a> Options</h2> <p>The third parameter of <code>useQuery</code> is an options object, used to configure your query.</p> <p>Like <code>variables</code>, you can pass a <code>Ref</code>, a reactive object or a function that will automatically be reactive.</p> <p>Using a <code>Ref</code>:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  fetchPolicy<span class="token operator">:</span> <span class="token string">'cache-first'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUsers {
+    users {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> options<span class="token punctuation">)</span>
+</code></pre></div><p>Using a reactive object:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token function">reactive</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  fetchPolicy<span class="token operator">:</span> <span class="token string">'cache-first'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUsers {
+    users {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> options<span class="token punctuation">)</span>
+</code></pre></div><p>Using a function that will automatically be reactive:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> fetchPolicy <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token string">'cache-first'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  query getUsers {
+    users {
+      id
+      email
+    }
+  }
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  fetchPolicy<span class="token operator">:</span> fetchPolicy<span class="token punctuation">.</span>value
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>See the <a href="../api/use-query">API Reference</a> for all the possible options.</p> <h3 id="disable-a-query"><a href="#disable-a-query" class="header-anchor">#</a> Disable a query</h3> <p>You can disable and re-enable a query with the <code>enabled</code> option:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> enabled <span class="token operator">=</span> <span class="token function">ref</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  ...
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
+  enabled<span class="token operator">:</span> enabled<span class="token punctuation">.</span>value<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">enableQuery</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  enabled<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="fetch-policy"><a href="#fetch-policy" class="header-anchor">#</a> Fetch Policy</h3> <p>The <code>fetchPolicy</code> option allows you to customize how the query will use the Apollo Client cache.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  ...
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  fetchPolicy<span class="token operator">:</span> <span class="token string">'cache-and-network'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>Available values are:</p> <ul><li><code>cache-first</code> (default): return result from cache. Only fetch from network if cached result is not available.</li> <li><code>cache-and-network</code>: return result from cache first (if it exists), then return network result once it's available.</li> <li><code>cache-only</code>: return result from cache if available, fail otherwise.</li> <li><code>network-only</code>: return result from network, fail if network call doesn't succeed, save to cache.</li> <li><code>no-cache</code>: return result from network, fail if network call doesn't succeed, don't save to cache.</li></ul> <h2 id="updating-cached-results"><a href="#updating-cached-results" class="header-anchor">#</a> Updating cached results</h2> <p>When a query is completed, it will update the cache with the result data (depending on the <a href="#fetch-policy">fetch policy</a>). This improves performance the next time the data needs to be rendered in your application and ensures that all components relying on a piece of data is always consistent.</p> <p>However, you sometimes want to make sure that this data is up-to-date compared to the server.</p> <h3 id="polling"><a href="#polling" class="header-anchor">#</a> Polling</h3> <p>Polling means repeatedly calling the server to automatically update the query data.</p> <p>You can enable polling with the <code>pollInterval</code> which will be the interval in ms between each requests repeatedly made to the server.</p> <p>In this example, we will poll the server every second:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> result <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  ...
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  pollInterval<span class="token operator">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="refetching"><a href="#refetching" class="header-anchor">#</a> Refetching</h3> <p>The other way is manually executing the query again in response to an event, as opposed to using a fixed interval.</p> <p>This is done using the <code>refetch</code> function:</p> <div class="language-vue extra-class"><div class="highlight-lines"><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br></div><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useQuery<span class="token punctuation">,</span> useResult <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-composable'</span>
+<span class="token keyword">import</span> gql <span class="token keyword">from</span> <span class="token string">'graphql-tag'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">setup</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> result<span class="token punctuation">,</span> loading<span class="token punctuation">,</span> error<span class="token punctuation">,</span> refetch <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      query getUsers {
+        users {
+          id
+          firstname
+          lastname
+          email
+        }
+      }
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">const</span> users <span class="token operator">=</span> <span class="token function">useResult</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      users<span class="token punctuation">,</span>
+      loading<span class="token punctuation">,</span>
+      error<span class="token punctuation">,</span>
+      refetch<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>loading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Loading...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Error: {{ error.message }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">v-else-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>users<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user of users<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>user.id<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{ user.firstname }} {{ user.lastname }}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>refetch()<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Refresh<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="event-hooks"><a href="#event-hooks" class="header-anchor">#</a> Event hooks</h2> <p><code>useQuery</code> returns event hooks allowing you to execute code when a specific event occurs.</p> <h3 id="onresult"><a href="#onresult" class="header-anchor">#</a> onResult</h3> <p>This is called whenever a new result is available.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> onResult <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span><span class="token operator">...</span><span class="token punctuation">)</span>
+
+<span class="token function">onResult</span><span class="token punctuation">(</span><span class="token parameter">queryResult</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>queryResult<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>queryResult<span class="token punctuation">.</span>loading<span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>queryResult<span class="token punctuation">.</span>networkStatus<span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>queryResult<span class="token punctuation">.</span>stale<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>You can pass the <code>notifyOnNetworkStatusChange</code> option to force the query to trigger a new result when the network status or error is updated:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">useQuery</span><span class="token punctuation">(</span>gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+  ...
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  notifyOnNetworkStatusChange<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="onerror"><a href="#onerror" class="header-anchor">#</a> onError</h3> <p>It is triggered when an error occurs:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> onError <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span><span class="token operator">...</span><span class="token punctuation">)</span>
+
+<span class="token function">onError</span><span class="token punctuation">(</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>graphQLErrors<span class="token punctuation">)</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>networkError<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>You can use the <code>logErrorMessages</code> function from the <code>@vue/apollo-util</code> package to format the error in the browser console:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> logErrorMessages <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-util'</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> onError <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span><span class="token operator">...</span><span class="token punctuation">)</span>
+
+<span class="token function">onError</span><span class="token punctuation">(</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">logErrorMessages</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>Example error:</p> <p><img src="/error-log.jpeg" alt="Error log screenshot"></p> <p>If you are using Webpack or Vue CLI, it's a good idea to only use it in development:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> logErrorMessages <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/apollo-util'</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> onError <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useQuery</span><span class="token punctuation">(</span><span class="token operator">...</span><span class="token punctuation">)</span>
+
+<span class="token function">onError</span><span class="token punctuation">(</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">!==</span> <span class="token string">'production'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">logErrorMessages</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>That way it will be dropped when compiling the project for production.</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/Akryum/vue-apollo/edit/v4/packages/docs/src/guide-composable/query.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">10/10/2021, 5:47:58 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide-composable/setup.html" class="prev">
+        Setup
+      </a></span> <span class="next"><a href="/guide-composable/mutation.html">
+        Mutations
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.d6060d8c.js" defer></script><script src="/assets/js/2.d347fc36.js" defer></script><script src="/assets/js/40.aaccb5b2.js" defer></script><script src="/assets/js/4.3bfcd1eb.js" defer></script>
+  </body>
+</html>
