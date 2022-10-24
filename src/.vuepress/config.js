@@ -48,11 +48,11 @@ module.exports = {
 
           {
             text: "Demo",
-            link: "https://gull -vue.netlify.app/landingpage",
+            link: "https://gull-vue-tailwind.netlify.app",
           },
           {
             text: "Purchase",
-            link: "https://gull -vue.netlify.app/landingpage",
+            link: "https://gull-vue-tailwind.netlify.app",
           },
         ],
         sidebarDepth: 2,
