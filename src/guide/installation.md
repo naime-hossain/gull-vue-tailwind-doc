@@ -5,14 +5,9 @@
 - Vue 3
 - Tailwind
 - Vite
-- Aatrox
+- Gull
 
-Demo: [Vue Demo](https://aatrox-vue.netlify.app/landingpage).
-
-
-
-
-
+Demo: [Vue Demo](https://gull-vue-tailwind.netlify.app).
 
 <!--
 ## Vue CLI Plugin
@@ -33,16 +28,16 @@ Then you can skip to next section: [Basic Usage](../guide-option/usage.md).
 ## Manual installation
 
 ```shell
-npm install 
+npm install
 ```
 
 Or:
 
 ```shell
-yarn 
+yarn
 ```
 
-Now to run development server of Aatrox run below command:
+Now to run development server of Gull run below command:
 
 ```shell
   # For yarn

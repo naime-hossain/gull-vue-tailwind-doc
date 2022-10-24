@@ -9,11 +9,9 @@ This library integrates [tailwind](https://tailwindcss.com/) in your [Vue 3](htt
 - Vue 3
 - Tailwind
 - Vite
-- Aatrox
+- Gull
 
-Demo: [Vue Demo](https://aatrox-vue.netlify.app/landingpage).
-
-
+Demo: [Vue Demo](https://gull -vue.netlify.app/landingpage).
 
 ## Plugins
 
@@ -22,7 +20,3 @@ Demo: [Vue Demo](https://aatrox-vue.netlify.app/landingpage).
 - vue-router
 - vuex
 - tailwind/custom-forms
-
-
-
-

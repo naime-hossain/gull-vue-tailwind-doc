@@ -1,80 +1,77 @@
 module.exports = {
-  base: '/',
+  base: "/",
   serviceWorker: true,
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
-  ],
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   locales: {
-    '/': {
-      lang: 'en-US',
-      title: 'Aatrox',
-      description: '🚀 Production Ready, Carefully Crafted, Extensive Vue 3 Tailwind Admin Template 🚀',
+    "/": {
+      lang: "en-US",
+      title: "Gull - Vue 3 & Tailwind 3 Admin Dashboard",
+
+      description:
+        "🚀 Production Ready, Carefully Crafted, Extensive Vue 3 Tailwind Admin Template 🚀",
     },
-   
   },
   plugins: [
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: {
-        '/': {
-          message: 'New content is available.',
-          buttonText: 'Refresh',
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: {
+          "/": {
+            message: "New content is available.",
+            buttonText: "Refresh",
+          },
         },
       },
-    }],
+    ],
   ],
   themeConfig: {
-    repo: '',
-    docsBranch: 'v4',
-    docsDir: 'packages/docs/src',
+    repo: "",
+    docsBranch: "v4",
+    docsDir: "packages/docs/src",
     editLinks: true,
     locales: {
-      '/': {
-        selectText: 'Languages',
-        label: 'English',
-        lastUpdated: 'Last Updated',
+      "/": {
+        selectText: "Languages",
+        label: "English",
+        lastUpdated: "Last Updated",
         nav: [
           {
-            text: 'Guide',
+            text: "Guide",
             items: [
               {
-                text: 'Getting started',
-                link: '/guide/',
+                text: "Getting started",
+                link: "/guide/",
               },
-              
             ],
           },
-          
+
           {
-            text: 'Demo',
-            link: 'https://aatrox-vue.netlify.app/landingpage',
+            text: "Demo",
+            link: "https://gull -vue.netlify.app/landingpage",
           },
           {
-            text: 'Purchase',
-            link: 'https://aatrox-vue.netlify.app/landingpage',
+            text: "Purchase",
+            link: "https://gull -vue.netlify.app/landingpage",
           },
-          
-          
         ],
         sidebarDepth: 2,
         sidebar: {
-          '/guide/': [
-            '',
-            
-            'installation',
-            'folderstructure',
-            'layout',
-            'components',
-            'plugins',
-            'vuexstore',
-            'router',
+          "/guide/": [
+            "",
+
+            "installation",
+            "folderstructure",
+            "layout",
+            "components",
+            "plugins",
+            "vuexstore",
+            "router",
           ],
-        
-          
-          '/migration/': [''],
+
+          "/migration/": [""],
         },
       },
-      
     },
   },
-}
+};

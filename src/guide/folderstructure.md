@@ -1,13 +1,15 @@
 # Folder Structure
- Understand folder structure of template and what everything contains
+
+Understand folder structure of template and what everything contains
 
 ## Main Package
-Once you unzip the package from marketplace/store you will find folder named Aatrox folder which contains actual files and folders required to run Aatrox Admin.
+
+Once you unzip the package from marketplace/store you will find folder named Gull folder which contains actual files and folders required to run Gull Admin.
 
 ```
 project
 │   .env
-│   .eslintrc.js   
+│   .eslintrc.js
 │   .gitignore
 │   .prettierrc.js
 │   index.html
@@ -32,12 +34,12 @@ project
 │   │      │  Header.vue
 │   │      │  Sidebar.vue
 │   │      │  index.vue
-│   │      │   
-│   │      │   
+│   │      │
+│   │      │
 │   │      router
 │   │      │  index.js
-│   │      │  
-│   │      │   
+│   │      │
+│   │      │
 │   │      store
 │   │      │   index.js
 │   │      │   helper.js
@@ -57,14 +59,14 @@ project
 │   │      │   Home.vue
 │   │      │   LandingPage.vue
 │   │      │   NotFound.vue
-│   │      │       
-│   │      │  
-│   │      │   
+│   │      │
+│   │      │
+│   │      │
 │   │      components
 │   │      │  Breadcrumbs.vue
 │   │      │  HeaderSearch.vue
-│   │      │  
-│   │      └──Base 
+│   │      │
+│   │      └──Base
 │   │       │
 │   │       └── BaseBtn.vue
 │   │       │
